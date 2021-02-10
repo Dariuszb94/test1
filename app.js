@@ -7,7 +7,7 @@ route('/', 'home', function() {
 route('/ex1', 'example1', function() {
   this.title = 'Example 1';
 });
-
+ 
 route('/ex2', 'example2', function() {
   this.title = 'Example 2';
   this.counter = 0;
